@@ -25,3 +25,5 @@
 - Import Crowdsale.sol from openZeppelin contracts(v@2.5.0) and create own contract MyTokenSale.sol
 - Deploy MyTokenSale.sol and transfer all tokens form MyToken to MyTokenSale.
 - Create .env file and Add INITAL_TOKENS 
+- Create a file setupchai.js and initalize chai, chai-bn, chai-as-promised
+- Create MyTokenSale.test.js to test TokenSale first to test tokens should not be in deployer account, second test to check all tokens present in the TokenSale contract and third test case to buy tokens.
