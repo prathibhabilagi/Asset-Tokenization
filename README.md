@@ -14,6 +14,7 @@
 - migrate
 - compile
 - test
+- npm install --save dotenv
 
 ### About Project :
 - Import ERC20 detailed Smart Contract.
@@ -23,3 +24,4 @@
 - Third test case to check its not possible to send more tokens than the available total tokens.
 - Import Crowdsale.sol from openZeppelin contracts(v@2.5.0) and create own contract MyTokenSale.sol
 - Deploy MyTokenSale.sol and transfer all tokens form MyToken to MyTokenSale.
+- Create .env file and Add INITAL_TOKENS 
