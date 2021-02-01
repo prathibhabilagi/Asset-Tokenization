@@ -18,4 +18,6 @@
 ### About Project :
 - Import ERC20 detailed Smart Contract.
 - Create our own ERC20 token contract and track used to track CAPPU, an internal currency.
-- First Test case to check wheater all tokens present in the deployer account.
+- First test case to check wheater all tokens present in the deployer account.
+- Second test case to check if token can be sent between accounts.
+- Third test case to check its not possible to send more tokens than the available total tokens
