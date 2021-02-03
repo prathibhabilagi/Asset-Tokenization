@@ -1,6 +1,6 @@
 # Asset-Tokenization using OpenZeppelin and Truffle
 
-### Project Usage :
+### Usage :
 - Truffle 
 - ERC20 openZeppelin contracts
 - chai , chai-bn and chai-as-promised
@@ -15,8 +15,9 @@
 - compile
 - test
 - npm install --save dotenv
+- npm install --save @truffle/hdwallet-provider
 
-### About Project :
+### About :
 - Import ERC20 detailed Smart Contract.
 - Create our own ERC20 token contract and track used to track CAPPU, an internal currency.
 - First test case to check wheater all tokens present in the deployer account.
@@ -27,3 +28,4 @@
 - Create .env file and Add INITAL_TOKENS 
 - Create a file setupchai.js and initalize chai, chai-bn, chai-as-promised
 - Create MyTokenSale.test.js to test TokenSale first to test tokens should not be in deployer account, second test to check all tokens present in the TokenSale contract and third test case to buy tokens.
+
